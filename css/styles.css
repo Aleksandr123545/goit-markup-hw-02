@@ -1,5 +1,6 @@
 body {
   font-family: Roboto, sans-serif;
+  color: #434455 ;
   background-color: #FFFFFF;
 
 
@@ -23,6 +24,7 @@ text-align: left;
 }
 
 p{
+  color:#434455;
 font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
@@ -45,37 +47,19 @@ border-bottom: 1px solid #E7E9FC
 }
 
 .header-nav-logo {
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: Raleway,sans-serif;
 font-size: 18px;
 font-weight: 700;
-line-height: 1.16;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-align: left;
 text-decoration: none;
 }
 
-.color-logo-web {
-  color: #4D5AE5;
-
-}
-
 .color-logo-studio {
   color: #2E2F42;
 
-}
-
-.header-nav-studio-link{
-    color: #2E2F42;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.02em;
-text-align: left;
-text-decoration: none;
-}
-.header-nav-studio-link:hover, 
-.header-nav-studio-link:focus {
-color:#404BBF;
 }
 
 
@@ -93,7 +77,9 @@ text-decoration: none;
 color:#404BBF;
 }
 
-
+.address{
+  font-style: normal;
+}
 .address-link {
   color: #434455;
 font-size: 16px;
@@ -109,14 +95,8 @@ color:#404BBF;
 }
 
 /* heroy section */
-.heroy-section {
-  background-color: #2e2f42;
-}
 
 .heroy-section {
-  width: 1440px
-  height: 600px
-  top: 72px
   background-color: #2E2F42;
 }
 
@@ -130,6 +110,7 @@ text-align: center;
 } 
 
 .heroy-section-button {
+  font-family: "Roboto",sans-serif;
   color: #FFFFFF;
 font-size: 16px;
 font-weight: 500;
@@ -137,8 +118,10 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 text-align: center;
 background-color:#4D5AE5;
+cursor: pointer;
 }
-button:hover {
+.heroy-section-button:hover,
+.heroy-section-button:focus {
   color: #404BBF;
 }
 
@@ -203,6 +186,16 @@ text-align: center;
 /* our-portfolio */
 .our-portfolio {
  
+}
+.our-portfolio-title {
+font-size: 36px;
+font-weight: 700;
+line-height: 1,2;
+letter-spacing: 0.02em;
+text-align: center;
+ text-transform: capitalize;
+ color: #2e2f42
+
 }
 
 /* footer */
