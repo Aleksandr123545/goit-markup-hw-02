@@ -72,6 +72,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: left;
 text-decoration: none;
+
 }
 .header-nav-link:hover,
 .header-nav-link:focus {
@@ -123,12 +124,11 @@ text-align: center;
 background-color:#4D5AE5;
 cursor: pointer;
 }
-.heroy-section-button:hover {
-  color: #404BBF;
-}
+.heroy-section-button:hover,
 .heroy-section-button:focus {
-  color: #404BBF;
+color: #404BBF;
 }
+  
 
 /* studio */
 .studio {
@@ -209,8 +209,20 @@ text-align: left;
 
 .footer-color-logo-web{
 color: #4D5AE5;
+font-family: Raleway, sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+text-align: left;
+
 }
 .footer-color-logo-studio{
+  color: #f4f4fd;
+}
+
+.footer-text {
   color: #F4F4FD;
 }
 
