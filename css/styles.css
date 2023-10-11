@@ -55,6 +55,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-align: left;
 text-decoration: none;
+ text-transform: uppercase;
 }
 
 .color-logo-studio {
@@ -74,8 +75,9 @@ text-decoration: none;
 }
 .header-nav-link:hover,
 .header-nav-link:focus {
-color:#404BBF;
-}
+  color: #404BBF;
+} 
+
 
 .address{
   font-style: normal;
@@ -107,6 +109,7 @@ font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
+text-transform:uppercase;
 } 
 
 .heroy-section-button {
@@ -127,10 +130,15 @@ cursor: pointer;
 
 
 /* section our time */          
-.our-teame{
+.our-teame-section{
   background-color: #F4F4FD;
-;
 }
+
+.our-teame-title {
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
 .our-teame-mark {
   background: #FFFFFF;
 width: Hug (264px)
@@ -175,7 +183,7 @@ border-radius: 0px, 0px, 4px, 4px
 gap: 32px
 }
 
-.our-teame-title {
+.our-teame-name {
 text-align: center;
 }
 .our-teame-text {
