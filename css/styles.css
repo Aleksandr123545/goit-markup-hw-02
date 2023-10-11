@@ -38,14 +38,6 @@ text-align: left;
 
 }
 
-.header-nav {
-  width: 1440px
-height: 72px
-border: 1px
-
-border-bottom: 1px solid #E7E9FC
-}
-
 .header-nav-logo {
   color: #4d5ae5;
   font-family: Raleway,sans-serif;
@@ -160,6 +152,7 @@ text-align: left;
 
 .our-teame-name {
 text-align: center;
+color: #2e2f42;
 }
 .our-teame-text {
   text-align: center;
@@ -191,6 +184,7 @@ font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: left;
+color: #2e2f42;
 }
 
 .our-portfolio-text {
