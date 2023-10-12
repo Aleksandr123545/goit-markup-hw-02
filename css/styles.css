@@ -1,7 +1,7 @@
 body {
   font-family: Roboto, sans-serif;
   color: #434455
-  background-color: #FFFFFF
+  background-color:  #FFFFFF
 }
 
 h2 {
@@ -70,7 +70,7 @@ text-decoration: none;
 
 
 .address{
-  font-style: normal;
+ font-style: normal;
 }
 .address-link {
   color: #434455;
@@ -115,18 +115,21 @@ cursor: pointer;
 }
 .heroy-section-button:hover,
 .heroy-section-button:focus {
-color: #404BBF;
+background-color: #404BBF;
 }
   
 
-/* studio */
-.studio {
+                                   /* studio */
+.studio-title {
+  color: #2e2f42;
+}
+
+.studio-title-next {
   color: #2e2f42;
 }
 
 .studio-text {
 font-size: 16px;
-font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: left;
@@ -171,8 +174,7 @@ text-align: center;
 }
 
 .our-portfolio-images {
-  width: 360px
-height: 300px
+ 
 }
 
 .our-portfolio-title-next {
@@ -186,7 +188,6 @@ color: #2e2f42;
 
 .our-portfolio-text {
 font-size: 16px;
-font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: left;
