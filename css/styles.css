@@ -45,6 +45,7 @@ p {
   text-decoration: none;
   text-transform: uppercase;
 }
+.header-nav-logo:hover,
 .header-nav-logo:focus {
   color: #404bbf;
 }
