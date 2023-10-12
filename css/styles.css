@@ -45,6 +45,9 @@ p {
   text-decoration: none;
   text-transform: uppercase;
 }
+.header-nav-logo:focus {
+  color: #404bbf;
+}
 
 .color-logo-studio {
   color: #2e2f42;
